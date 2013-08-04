@@ -5,21 +5,20 @@ iScore est l'interface d'administration d'un projet de gestion de concerts de mu
 
 Dans le cadre d'une collaboration avec des étudiants de 5ème année, l'application permet de gérer un parc d'instruments de musique et de musiciens, mais aussi de créer des configuration de concerts qui seront utilisés par les musiciens lors de leur répétition. 
 
-[authors] ================================
+Auteurs / Autors
+======
 Alexandre Bongard <alx.bongard@gmail.com>
 Thomas Folgueral <thomas.folgueral@gmail.com>
 Guillaume Sainthillier <guillaume.sainthillier@gmail.com>
+
+Pré requis / Prerequisite
 ==========================================
 
-_____________________________________________________________________________
-Pre requis :
-============
 Vous devez avoir installé:
 - un serveur apache et php
 - une base de données : mysql ou postgresql
 -----------------------------------------------------------------------------
-Prerequisite :
-============
+
 You must have the following services installed :
 - Apache server with php extension
 - database server : mysql or postgresql
