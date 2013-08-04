@@ -1,0 +1,266 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body {
+	text-align: left;
+	font: normal 80% "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #515151;
+	background-color: #F3F3F3;
+}
+
+#menuGauche {
+	float: left;
+	min-height: 350px;
+	width: 310px;
+}
+
+#menuGauche div.rubrik {
+    background: url("../img/bg-menu.gif") repeat-y scroll left center #FAFAFA;
+    margin: 0;
+    padding: 0 0 3px;
+}
+
+#menuGauche li.elem a {
+    background-position: left center;
+    background-repeat: no-repeat;
+    color: #434343;
+    display: block;
+    margin: 0px 5px 0px;
+    padding: 15px 2px 3px 42px;
+	text-decoration: none;
+}
+
+#menuGauche li.elem span {
+    color: #434343;
+    display: block;
+    padding: 0px 2px 3px 40px;
+}
+
+.cursormove {
+	cursor: move;
+}
+
+.accueil-32 {background-image: url("../img/accueil-32.png");}
+.concert-32 {background-image: url("../img/concert-32.png");}
+.sablier-32 {background-image: url("../img/sablier-32.png");}
+.instrument-32 {background-image: url("../img/instrument-32.png");}
+.users-32 {background-image: url("../img/users-32.png");}
+.connexion-32 {background-image: url("../img/connexion-32.png");}
+.deconnexion-32 {background-image: url("../img/deconnexion-32.png");}
+
+#menuGauche li.elem:hover, #menuGauche li.hr, #menuGauche li.elem:hover a, #menuGauche li.elem:hover span{ background-color:#999999; color:#ffffff;}
+
+/*
+	liste des instrument en accordion sur la page concert
+*/
+
+#listeCentre {
+	min-height: 350px;
+	width: 310px;
+}
+
+
+#topMenu {
+	height: 50px;
+}
+
+#footer {
+	margin-bottom: 1%;
+}
+
+#footer span {
+	padding: 5px;
+}
+
+#corpsContenu {
+	padding: 10px 30px;
+}
+
+#contenu, #topMenu, #menuGauche, #footer {
+	margin: 10px 10px 0 10px;
+}
+#contenu, #topMenu, #footer {
+	padding: 5px;
+}
+
+#contenu {
+	margin-left: 330px;
+}
+
+.center {
+	text-align: center;
+}
+
+.contextMenu li span.ui-icon{
+	margin-left: 5px;
+	margin-top: 2px;
+}
+
+span.file:hover {
+	font-size: 110%;
+}
+
+.titre {
+	margin-bottom: 10px;
+	height: 35px;
+}
+
+.titre span {
+	position: relative;
+	top: 8px;
+}
+
+form label {
+	float: left; 
+	width: 200px;
+	text-align: right;
+	padding-right: 10px;
+}
+
+
+	
+.imageZoom {
+	float:left;
+	padding-left: 10px;
+	padding-top: 2px;
+	cursor: pointer;
+}
+
+.cursorpointer {
+	cursor: pointer;
+}
+
+.message {
+	position: relative;
+	padding: 5px;
+	margin: 1px;
+}
+
+.message span.ui-icon {
+	float: left;
+	margin-right: 0.3em;
+}
+
+.displayib {
+	display: inline-block;
+}
+
+.fleft {
+	float: left;
+}
+
+.fright {
+	float: right;
+}
+
+.formcheckbox {
+	margin-top: 5px;
+}
+a.button img {
+	position: relative;
+	top: 11px;
+	right: 4px;
+}
+
+a.button {
+	padding: 10px;
+	text-decoration: none;
+}
+
+#retourAction div.bordervert {
+	border: 1px solid green;
+}
+
+
+
+table.tab-tab {
+    border: 1px solid #EFEFEF;
+    border-collapse: separate;
+    width: 100%;
+}
+
+
+table.tab-tab tr.tab-title {
+    background-color: #F2F2F2;
+    padding: 3px;
+}
+
+
+table.tab-tab tr.tab-title th {
+    font-weight: bold;
+    height: 30px;
+    text-align: center;
+}
+
+
+table.tab-tab tr.tab-title th.title {
+    text-align: left;
+}
+
+
+table.tab-tab tr.tab-data {
+    border: 1px solid #CCCCCC;
+    border-collapse: separate;
+}
+
+
+table.tab-tab tr.tab-data td {
+    padding: 2px;
+    text-align: center;
+    vertical-align: center;
+}
+
+tr.odd td {
+    background-color: #FFFFFF;
+}
+
+tr.odd td {
+    background-color: #FFFFFF;
+}
+
+tr.even td {
+    background-color: #EFEFEF;
+}
+
+.toplevel {
+	position: fixed;
+	z-index: 101;
+}
+
+.panier {
+	height: 50px;
+	width: 200px;
+	margin-top: 10px;
+	margin-left: 210px;
+	text-align: center;
+}
+
+.panier span {
+	position: relative;
+	top: 15px;
+}
+
+form .labelPanier {
+	position : relative;
+	top: 25px;
+}
+
+.pDroper {
+	text-align: center;
+	margin-top: 15px;
+}
+
+
+
+#poubelle {
+	position: relative;
+	top: -41px;
+	left: -10px;
+	float:right;
+}
+
+.elemDrag {
+	padding: 5px;
+}
