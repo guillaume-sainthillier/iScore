@@ -12,41 +12,40 @@ Thomas Folgueral <thomas.folgueral@gmail.com>
 Guillaume Sainthillier <guillaume.sainthillier@gmail.com>
 
 Pré requis / Prerequisite
-==========================================
+======
 
 Vous devez avoir installé:
 - un serveur apache et php
 - une base de données : mysql ou postgresql
------------------------------------------------------------------------------
 
 You must have the following services installed :
 - Apache server with php extension
 - database server : mysql or postgresql
-_____________________________________________________________________________
+
+Informations
+======
 En fait, reportez vous aux installations de :
-- sous windows : wamp (http://www.wampserver.com/)
-                 ou easyphp(http://easyphp.fr/)
+- sous windows : wamp (http://www.wampserver.com/) ou easyphp(http://easyphp.fr/)
 - sous linux : lamp
 
-Si vous utilisez postgre sql, voir install sur le site :
-http://www.postgresqlfr.org/
+Si vous utilisez postgre sql, voir install sur le site : http://www.postgresqlfr.org/
 
-Si vous debutez, il est plus simple de garder mysql qui est packagee avec
+Si vous debutez, il est plus simple de garder mysql qui est packagé avec
 easyphp ou wamp.
------------------------------------------------------------------------------
+
+
 you should report to the installations of :
-- for windows : wamp (http://www.wampserver.com/)
-                or easyphp(http://easyphp.fr/)
+- for windows : wamp (http://www.wampserver.com/) or easyphp(http://easyphp.fr/)
 - for Linux : lamp
 
-In case you use postgresql, you also have to install postgresql
-(http://www.postgresqlfr.org/)
+In case you use postgresql, you also have to install postgresql : http://www.postgresqlfr.org/)
 
 If you're new to all that, it'd be easier to keep mysql that comes
 included in the easyphp or wamp package.
-_____________________________________________________________________________
-* Installation de iScore 
-   copier le repertoire iScore sur votre serveur
+
+Installation d'iScore / iScore installation
+======
+copier le repertoire iScore sur votre serveur
         wamp/www/iScore
         sous linux (debian) : /var/www/iScore
 -----------------------------------------------------------------------------
