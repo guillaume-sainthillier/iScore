@@ -8,4 +8,10 @@ Dans le cadre d'une collaboration avec des étudiants de 5<sup>ème</sup> année
   - gérer les musiciens et leurs compétences
   - créer des configuration de concerts qui seront utilisés lors des répétitions. 
 
+
+### Démo
+Une démonstration en ligne du site est disponible sur http://iScore.sainthillier.fr
+
+
+### Installation
 Retrouvez la procédure d'installation de l'application sur http://guillaume-sainthillier.github.io/iScore/
